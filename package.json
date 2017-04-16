@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "mongoose": "^4.7.1",
-    "express": "4.15.2"
+    "express": "^4.15.2"
   },
   "keywords": [
     "node",
