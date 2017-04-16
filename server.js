@@ -2,7 +2,7 @@ var http = require('http');
 var express = require('express');
 var mongoClient = require('mongodb');
 var utility = require('./utility');
-var port = process.env.port || 1337;
+var port = process.env.PORT || 1337;
 var app = new express();
 var db;
 connectDb(function(){
