@@ -5,11 +5,11 @@ var utility = require('./utility');
 var port = process.env.port || 1337;
 var app = new express();
 var db;
-connectDb(function(){
-	http.createServer(app).listen(port, function () {
-		console.log("Express server started at "+ port);
-	});
-	});
+// connectDb(function(){
+// 	http.createServer(app).listen(port, function () {
+// 		console.log("Express server started at "+ port);
+// 	});
+// 	});
 
 function connectDb(callback) {
 	//{user:"lokeshld",pass:"lokeshld"}
