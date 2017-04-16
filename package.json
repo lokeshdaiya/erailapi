@@ -1,0 +1,26 @@
+{
+  "name": "erail-api",
+  "version": "0.0.0",
+  "description": "erail api using express",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "v-lodaiy",
+    "email": ""
+  },
+  "dependencies": {
+    "mongoose": "^4.7.1",
+    "express": "4.15.2"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "erail"
+  ]
+}
